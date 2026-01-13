@@ -30,6 +30,10 @@ module tb_alu;
     alu uut (.A(A), .B(B), .opcode(opcode), .Y(Y));
 
     initial begin
+
+         // VCD dump setup
+       $dumpfile("alu_wave.vcd");
+      $dumpvars(0, tb_alu);
         fin = $fopen("input.txt", "r");
         if (fin == 0) begin
             $display("❌ ERROR: Cannot open input.txt file!");
@@ -51,3 +55,4 @@ module tb_alu;
         $finish;
     end
 endmodule
+
