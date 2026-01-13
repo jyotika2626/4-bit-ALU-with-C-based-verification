@@ -21,6 +21,17 @@ The design and verification were simulated using EDA Playground.
 - C 
 - GitHub
 
+# 🧪 Verification Flow
+1. C program generates random ALU inputs
+2. Inputs stored in `input.txt`
+3. Verilog testbench reads input file
+4. ALU computes output
+5. Results written to `output.txt`
+
+# 👩‍💻 Author
+Jyotika Nirban  
+B.Tech VLSI, Banasthali Vidyapith
+
 
 
 
