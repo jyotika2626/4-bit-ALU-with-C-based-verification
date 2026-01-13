@@ -23,4 +23,4 @@ The design and verification were simulated using EDA Playground.
 
 
 
-## 📂 Project Structure
+
